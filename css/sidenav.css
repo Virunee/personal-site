@@ -11,16 +11,18 @@ body {
 body,
 html {
   height: 100%;
-  background-color: #FFFFFF;
 }
 .nav .open > a {
   background-color: transparent;
+  text-decoration: none;
 }
 .nav .open > a:hover {
   background-color: transparent;
+  text-decoration: none;
 }
 .nav .open > a:focus {
   background-color: transparent;
+  text-decoration: none;
 }
 /*-------------------------------*/
 /*           Wrappers            */
@@ -94,30 +96,31 @@ html {
 .sidebar-nav li:first-child a {
   background-color: #27D1C6;
   color: #ffffff;
+  text-decoration: none;
 }
 .sidebar-nav li:nth-child(2):before {
-  background-color: #e5e5e5;
+  background-color: #1fa69d;
 }
 .sidebar-nav li:nth-child(3):before {
-  background-color: #f2f2f2;
+  background-color: #23bcb2;
 }
 .sidebar-nav li:nth-child(4):before {
-  background-color: #FFFFFF;
+  background-color: #27D1C6;
 }
 .sidebar-nav li:nth-child(5):before {
-  background-color: #ffffff;
+  background-color: #38dacf;
 }
 .sidebar-nav li:nth-child(6):before {
-  background-color: #ffffff;
+  background-color: #4dded4;
 }
 .sidebar-nav li:nth-child(7):before {
-  background-color: #ffffff;
+  background-color: #63e2da;
 }
 .sidebar-nav li:nth-child(8):before {
-  background-color: #ffffff;
+  background-color: #78e6df;
 }
 .sidebar-nav li:nth-child(9):before {
-  background-color: #ffffff;
+  background-color: #8eeae4;
 }
 .sidebar-nav li:hover:before {
   transition: width 0.2s ease-in;
@@ -283,26 +286,4 @@ html {
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 1;
-}
-/* SOME DEMO STYLES - NOT REQUIRED */
-body,
-html {
-  background-color: #FFFFFF;
-}
-body h1,
-body h2,
-body h3,
-body h4 {
-  color: rgba(46, 91, 108, 0.9);
-}
-body p,
-body blockquote {
-  color: rgba(46, 91, 108, 0.7);
-}
-body a {
-  color: rgba(46, 91, 108, 0.8);
-  text-decoration: underline;
-}
-body a:hover {
-  color: #2E5B6C;
 }
