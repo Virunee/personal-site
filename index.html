@@ -18,7 +18,7 @@
        <div class="overlay"></div>
 
        <!-- Sidebar -->
-       <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+       <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation" onclick="document.getElementById('hamburger').click();">
            <ul class="nav sidebar-nav">
                <li class="sidebar-brand">
                    <a href="#">
@@ -26,22 +26,22 @@
                    </a>
                </li>
                <li>
-                   <a href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+                   <a href="#!/"><i class="fa fa-fw fa-home"></i>Home</a>
                </li>
                <li>
-                   <a href="#"><i class="fa fa-fw"></i> About</a>
+                   <a href="#!/about"><i class="fa fa-fw"></i>About</a>
                </li>
                <li>
-                   <a href="#"><i class="fa fa-fw"></i> Front-End Developer</a>
+                   <a href="#!/developer"><i class="fa fa-fw"></i>Front-End Developer</a>
                </li>
                <li>
-                   <a href="#"><i class="fa fa-fw"></i> Fine Art</a>
+                   <a href="#!/art"><i class="fa fa-fw"></i>Fine Art</a>
                </li>
                <li>
-                   <a href="#"><i class="fa fa-fw"></i> Videos</a>
+                   <a href="#!/videos"><i class="fa fa-fw"></i>Videos</a>
                </li>
                <li>
-                   <a href="#"><i class="fa fa-fw"></i> Podcasts</a>
+                   <a href="#!/podcasts"><i class="fa fa-fw"></i>Podcasts</a>
                </li>
            </ul>
        </nav>
@@ -49,7 +49,7 @@
 
        <!-- Hamburger icon -->
        <div id="page-content-wrapper">
-         <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
+         <button id = 'hamburger' type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
            <span class="hamb-top"></span>
            <span class="hamb-middle"></span>
            <span class="hamb-bottom"></span>
@@ -57,7 +57,14 @@
          <!-- /Hamburger icon -->
 
           <!-- Page Content -->
-           <div ng-view></div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                      <h1 class="page-header">Virunee Viravong</h1>
+                        <div ng-view></div>
+                  </div>
+              </div>
+          </div>
 
         <!-- /#page-content-wrapper -->
        </div>
