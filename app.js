@@ -5,6 +5,7 @@ personalSite.config(function ($routeProvider) {
     .when('/', {
         templateUrl: 'pages/main.html',
         controller: 'mainController'
+  })
 });
 
 //CONTROLLERS
