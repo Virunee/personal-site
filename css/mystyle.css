@@ -49,3 +49,11 @@ li span {
 #skills-list li {
   margin-bottom: 20px;
 }
+
+.bg-1 a:hover{
+  color:#B2DFDB;
+}
+
+.bg-1 a:visited {
+  color:white;
+}
