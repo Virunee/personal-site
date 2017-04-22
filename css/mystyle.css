@@ -1,0 +1,51 @@
+.bg-1 {
+  background-color: #4DB6AC;
+padding-top: 50px;
+padding-bottom: 100px;
+margin-top: 50px;
+}
+
+.bg-1 h2 {
+  color: white;
+}
+
+.bg-2 {
+    background-color: #455A64;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: #E0F2F1;
+}
+
+.bg-2 h2 {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.bg-4 {
+  background-color: #4DB6AC;
+padding-top: 50px;
+padding-bottom: 50px;
+margin-top: 50px;
+color: white;
+}
+
+.bg-4:hover {
+  background-color: #26A69A;
+}
+
+.thumb {
+  padding: 50px;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+li span {
+  color: #4DB6AC;
+}
+
+#skills-list li {
+  margin-bottom: 20px;
+}

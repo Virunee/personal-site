@@ -3,13 +3,17 @@
 <head>
     <title>Virunee Viravong</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <base href="/"> <!-- needed for Angular HTML5 mode -->
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/github-widget/src/widget.css">
     <link rel="stylesheet" type="text/css" href="css/sidenav.css">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
     <script type="text/javascript" src="bower_components/angular/angular.js"></script>
     <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="bower_components/github-widget/dist/widget.js"></script>
     <script type="text/javascript" src="js/sidenav.js"></script>
     <script src="app.js"></script>
 </head>
@@ -20,11 +24,7 @@
        <!-- Sidebar -->
        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation" onclick="document.getElementById('hamburger').click();">
            <ul class="nav sidebar-nav">
-               <li class="sidebar-brand">
-                   <a href="#">
-                      Virunee Viravong
-                   </a>
-               </li>
+               <li class="sidebar-brand"></li>
                <li>
                    <a href="#!/"><i class="fa fa-fw fa-home"></i>Home</a>
                </li>
@@ -61,10 +61,10 @@
               <div class="row">
                   <div class="col-lg-8 col-lg-offset-2">
                       <h1 class="page-header">Virunee Viravong</h1>
-                        <div ng-view></div>
                   </div>
               </div>
           </div>
+          <div ng-view></div>
 
         <!-- /#page-content-wrapper -->
        </div>
