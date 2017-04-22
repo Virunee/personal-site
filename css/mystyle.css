@@ -71,6 +71,10 @@ li span {
   border: 8px solid #26A69A;
 }
 
+.art-thumb:hover{
+  border: 8px solid #219085;
+}
+
 #sniper-vid {
   margin-top: 50px;
 }
