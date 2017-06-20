@@ -1,6 +1,7 @@
 var personalSite = angular.module('personalSite', ['ngRoute']);
 
-personalSite.config(function ($routeProvider) {
+personalSite.config(function ($routeProvider, $locationProvider) {
+
   $routeProvider
     .when('/', {
         templateUrl: 'pages/main.html',
@@ -25,7 +26,11 @@ personalSite.config(function ($routeProvider) {
 
     .when('/podcasts', {
       templateUrl: 'pages/podcasts.html'
-    })
+    });
+
+    // use the HTML5 History API
+        $locationProvider.html5Mode(true);
+
 });
 
 //CONTROLLERS
