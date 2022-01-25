@@ -28,8 +28,8 @@ personalSite.config(function ($routeProvider, $locationProvider) {
       templateUrl: 'pages/podcasts.html'
     });
 
-    // use the HTML5 History API
-        $locationProvider.html5Mode(true);
+    // // use the HTML5 History API
+    //     $locationProvider.html5Mode(true);
 
 });
 

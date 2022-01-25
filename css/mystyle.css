@@ -89,10 +89,11 @@ li span {
 }
 
 .main-page-div {
-  margin-bottom: 50px;
+  margin-bottom: 200px;
 }
 
 .footer {
+  bottom: 0px;
   background-color: #455A64;
   height: auto;
   width: 100%;
@@ -103,23 +104,30 @@ li span {
 
 .social-media-links {
   align-content: center;
-
 }
+
 .social-media-links li{
   display: inline-block;
   padding: 10px;
-  background-color: #212F3C;
   margin-left: 30px;
   margin-bottom: 30px;
-  border-bottom: 2px solid transparent;
+  max-width: 50px;
+  border-bottom: 3px solid transparent;
 }
 
 .social-media-links li:hover {
-  background-color: #2E4053;
   color: white;
-  border-bottom: 2px solid white;
+  border-bottom: 3px solid white;
 }
 
 .podcast-page {
   height: 100%;
+}
+
+.film-links a{
+  color: #B2DFDB;
+}
+
+.film-links a:hover{
+  color: #16a085;
 }
