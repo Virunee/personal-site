@@ -1,0 +1,137 @@
+.bg-1 {
+  background-color: #4DB6AC;
+padding-top: 50px;
+padding-bottom: 100px;
+margin-top: 50px;
+}
+
+.bg-1 h2 {
+  color: white;
+}
+
+.bg-2 {
+    background-color: #455A64;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: #E0F2F1;
+}
+
+.bg-2 h2 {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.bg-4 {
+  background-color: #4DB6AC;
+padding-top: 50px;
+padding-bottom: 50px;
+margin-top: 50px;
+color: white;
+}
+
+.bg-4:hover {
+  background-color: #26A69A;
+}
+
+.thumb {
+  padding: 50px;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  padding-left: 0px;
+}
+
+li span {
+  color: #4DB6AC;
+}
+
+#skills-list li {
+  margin-bottom: 20px;
+}
+
+.bg-1 a:visited {
+  color:#34495e;
+}
+
+.bg-1 a:hover{
+  color:#B2DFDB;
+}
+
+.bg-1 h3 {
+  color:white;
+}
+
+.art-thumb {
+ width: 400px;
+ height:300px;
+  margin-bottom: 40px;
+  object-fit: cover;
+  border: 8px solid #26A69A;
+}
+
+.art-thumb:hover{
+  border: 8px solid #219085;
+}
+
+#sniper-vid {
+  margin-top: 50px;
+}
+
+.bg-1 span {
+  color: white;
+}
+
+#youtube-vid {
+  margin-top: 50px;
+  align-items: center;
+}
+
+.main-page-div {
+  margin-bottom: 200px;
+}
+
+.page-header {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.footer {
+  bottom: 0px;
+  background-color: #455A64;
+  height: auto;
+  width: 100%;
+  padding: 50px;
+  margin: 0px;
+  border-radius: 0%;
+}
+
+.social-media-links {
+  align-content: center;
+}
+
+.social-media-links li{
+  display: inline-block;
+  padding: 10px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  max-width: 50px;
+  border-bottom: 3px solid transparent;
+}
+
+.social-media-links li:hover {
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+.podcast-page {
+  height: 100%;
+}
+
+.film-links a{
+  color: #B2DFDB;
+}
+
+.film-links a:hover{
+  color: #16a085;
+}
